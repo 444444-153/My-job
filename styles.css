@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
 
                 font-size: 22px ;
@@ -27,4 +28,35 @@ table, tr, th, td, caption {
     gap: 1rem;
     align-items: center;
     border-radius: 50%;
+=======
+html {
+
+                font-size: 22px ;
+            }
+            body {
+                background-color: #333 ;
+                color: whitesmoke;
+            }
+a {
+    color: aliceblue;
+}
+a:visited {
+    color: lightgray;
+}
+a:hover, a:active {
+    color: #eee;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'courier New', 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem
+}
+#primary-navigation {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 50%;
+>>>>>>> bdbcc3cbcd8dcefa678d414990bc388679051a08
 }
